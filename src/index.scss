@@ -1,0 +1,98 @@
+@import "./assets/variable.scss";
+
+
+/* Fonts */
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Regular.woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal; }
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Medium.woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal; }
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Bold.woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal; }
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/Roboto-Light.woff");
+  font-weight: 300;
+  font-style: normal; }
+/* ------------------------*/	
+
+
+/* Обнуление стилей */	
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы и наследуем шрифт */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol[class],
+li
+{
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit
+}
+
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button
+ {
+  font: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Убираем подчеркивание для ссылок */
+a{
+	text-decoration:none;
+}
+/* Убираем полосы прокрутки на странице */
+::-webkit-scrollbar {
+	width: 0;
+  height: 0;
+}
+/* ------------------------*/	
+

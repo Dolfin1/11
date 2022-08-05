@@ -1,0 +1,39 @@
+
+
+.b-nav {
+	position: fixed;
+	top: 14rem;
+	z-index: 99;
+  background-color: var(--c-menu-btn-bg);
+  max-width: inherit;
+  width: 100%;
+  overflow-x: auto;
+  padding: 1rem 0rem;	
+
+  &__list {
+		display: flex;
+    gap: 2rem;
+	}
+
+	&__item {
+	}
+
+  &__item--position_last {
+    padding-right: 2rem;
+  }
+
+	&__button {
+    background: transparent;
+		color: var(--c-btn);
+    padding: 1rem 2rem;
+	}
+  &__button:hover {
+    border-radius: 32px;
+    border: 1px solid;
+    border-color: var(--c-nav-btn-border);
+}
+@media (min-width:608px){
+    background: linear-gradient(180deg, #201F2E 50%, rgba(32, 31, 46, 0) 100%);
+  }
+}
+

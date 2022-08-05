@@ -1,0 +1,21 @@
+.b-footer {
+	position: fixed;
+	bottom: 0;
+	background-color: var(--c-footer-bg);
+	border-top-right-radius: 4rem;
+	border-top-left-radius: 4rem;
+	width:100%;
+	max-width: inherit;                                        
+  padding: 3rem 4rem; 
+
+  &__button {
+    font-size: var(--f-s-base);
+    font-weight: 500;
+    line-height: var(--l-h-btn);
+    padding: 2rem 3rem;
+    background-color: var(--c-footer-btn-bg);
+    border-radius: 4rem; 
+    border: none;
+    color: var(--c-btn);
+  }
+}

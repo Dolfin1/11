@@ -1,0 +1,40 @@
+// Переменные
+
+:root{
+/* Font-size */
+--f-s-small: 14px;
+--f-s-base: 18px;
+--f-s-h1: 24px; 
+
+/* Line-height */ 
+--l-h-small: 16px;    
+--l-h-base: 21px;
+--l-h-btn: 17px;
+--l-h-h1: 28px;
+
+/* Palette */ 
+--c-grey-1: #44414E;
+--c-grey-2: #201F2E;
+
+--c-pink-1: #C4C1CF;
+
+--c-black: #0E0D13;
+
+--c-white: #FFFFFF;
+
+/* Colors */ 
+--c-main-bg: var(--c-grey-2);
+--c-base-text: var(--c-white);
+--c-btn: var(--c-pink-1);
+--c-menu-btn-bg: var(--c-grey-2);
+--c-footer-btn-bg: var(--c-grey-1);
+--c-date: var(--c-pink-1);
+--c-footer-bg: var(--c-black);
+--c-card-info-bg: var(--c-black);
+--c-card-style: var(--c-pink-1);
+--c-nav-btn-border: var(--c-white);
+--c-detail-btn-bg: var(--c-grey-2);
+
+}
+
+/* ------------------------ */ 

@@ -1,0 +1,33 @@
+
+
+.b-header { 
+  position: fixed;
+	width: 100%;
+	max-width: inherit;
+	z-index: 100;
+	background-color:  var(--c-main-bg);
+	top: 0;
+	padding: 4rem 0rem;
+
+	&__info {
+	}
+
+	&__title {
+		font-size: var(--f-s-h1);
+		font-weight: 700;
+		line-height: var(--l-h-h1);
+	}
+
+	&__date {
+		color:  var(--c-date)
+	}
+
+	&__logo {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	&__image {
+	}
+}
